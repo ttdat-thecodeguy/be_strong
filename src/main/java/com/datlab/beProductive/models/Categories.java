@@ -1,4 +1,4 @@
-package com.datlab.beStrong.models;
+package com.datlab.beProductive.models;
 
 import jakarta.persistence.*;
 
@@ -13,7 +13,6 @@ public class Categories {
     private UUID id;
     private String name;
 
-    @Lob
     @Column(name = "metadata")
     private String metadata;
 

@@ -1,7 +1,6 @@
-package com.datlab.beStrong.repository;
+package com.datlab.beProductive.repository;
 
-import com.datlab.beStrong.models.Categories;
-import com.datlab.beStrong.models.Todos;
+import com.datlab.beProductive.models.Categories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

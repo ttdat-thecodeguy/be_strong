@@ -2,9 +2,9 @@ server:
   port: 8088
 spring:
   application:
-    name: beStrong
+    name: beProductive
   datasource:
-    url: jdbc:postgresql://localhost:5432/dbo_be_strong
+    url: jdbc:postgresql://localhost:5432/dbo_be_productive
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
